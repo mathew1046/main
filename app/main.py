@@ -3,5 +3,5 @@ from flask import Flask
 app = Flask(__name__) 
 
 @app.route("/") 
-def home_view(): 
+def home(): 
     return "<h1>Welcome to Mathew's Website</h1>"
